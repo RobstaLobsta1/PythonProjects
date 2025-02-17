@@ -8,4 +8,7 @@ age = int(input("Enter your age: "))
 modAge = 2024 + (100 - age)
 
 print("Hello, " + name + "! You are " + str(age) + " years old.")
-print("You are going to turn 100 in the year " + str(modAge))
+#Concatenation Practice
+#Able to print out message multiple times by doing...
+#"Multiplication with Strings"
+print(4 * ("\nYou are going to turn 100 in the year " + str(modAge)))
