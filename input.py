@@ -1,6 +1,7 @@
 #Grabbing user input and outputting after saving to var
 name = input("Enter your name: ")
 
+#Need to add function to ensure user input is only an integer and not a string or float
 age = int(input("Enter your age: "))
 
 #Calculates what year the user will be 100 years old. 
