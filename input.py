@@ -1,3 +1,5 @@
+#Exercise 1
+
 #Grabbing user input and outputting after saving to var
 name = input("Enter your name: ")
 
