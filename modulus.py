@@ -10,33 +10,15 @@
 #1 is NOT equal to 0, the conditional statement resolves to odd or "else"
 num1 = 0
 
-while num1 != "end":
+while True:
     num1 = input("Enter a number : ")
 
-    if int(num1) % 4 == 0:
+    if num1 == "end":
+        print("Goodbye")
+        break
+    elif int(num1) % 4 == 0:
         print("The number is a multiple of 4")
     elif int(num1) % 2 == 0:
         print("The number is even")
     else:
         print("The number is odd")
-    
-
-
-
-    
-
-    '''
-    For tomorrow ::: Add extras
-    
-    
-    1. If the number is a multiple of 4, print out a different message.
-
-    2. Ask the user for two numbers: one number to check (call it num) and 
-    one number to divide by (check). If check divides evenly into num, 
-    tell that to the user. If not, print a different appropriate message.
-    
-    '''
-
-
-
-

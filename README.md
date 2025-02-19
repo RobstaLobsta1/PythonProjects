@@ -1,4 +1,4 @@
-Personal Programs I wrote to help me learn Python!
+Little exercies I used to help me learn Python!
 
-All files are from https://www.practicepython.org/ 
+All exercises are from https://www.practicepython.org/ 
 
