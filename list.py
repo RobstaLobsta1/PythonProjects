@@ -23,11 +23,6 @@ Exercise Extras
 
 #Define list
 list1 = [1,1,2,3,5,13,21,34,55,89]
-list2 = []
 
-#Loop through list, add numbers less than 5 from list1 to list2, then print out list2 when fully looped through
-for i in list1:
-    if i < 5:
-        list2.append(i)
-
-print(list2)
+#One liner
+print( [ i for i in list1 if i<5 ] )
