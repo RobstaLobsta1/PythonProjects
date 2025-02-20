@@ -22,9 +22,12 @@ Exercise Extras
 
 
 #Define list
-list = [1,1,2,3,5,13,21,34,55,89]
+list1 = [1,1,2,3,5,13,21,34,55,89]
+list2 = []
 
-#Loop through list, and print out each element that is less than 5
-for i in list:
+#Loop through list, add numbers less than 5 from list1 to list2, then print out list2 when fully looped through
+for i in list1:
     if i < 5:
-        print(i)
+        list2.append(i)
+
+print(list2)
